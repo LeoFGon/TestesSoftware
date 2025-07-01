@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public abstract class BaseTest{
 	
 	protected static WebDriver driver;
-	//private static final String URL_BASE = "https://www.google.com";
+	//Por favor URL_BASE alterar baseado na localizção na do arquivo sistema/produtos.html na maquina local
 	private static final String URL_BASE = "file:///C:/Users/36129382023.2n/Downloads/selenium-lab-main/sistema/produtos.html";
 	private static final String PATH_DRIVE = "src/main/resources/chromedriver.exe";
 	
